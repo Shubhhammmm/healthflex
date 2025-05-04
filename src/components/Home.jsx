@@ -1,7 +1,7 @@
 import { useReducer } from 'react';
 import { Link } from 'react-router-dom';
-import {AddTimer} from './Addtimer';
-import {Category} from './Category';
+import AddTimer from './Addtimer';
+import Category from './Category';
 
 const initialState = {
   timers: JSON.parse(localStorage.getItem('timers')) || [],
